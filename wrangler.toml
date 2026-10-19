@@ -1,0 +1,7 @@
+name = "sdgs-exchange"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "public"
+[[d1_databases]]
+binding = "DB"
+database_name = "sdgs-exchange"
+database_id = "cd13ca07-df66-4bf2-8957-3b0d6437359c"

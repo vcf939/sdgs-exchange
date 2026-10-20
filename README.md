@@ -156,3 +156,8 @@ Cloudflare既有正式資料庫已升級，日常活動不要重跑建表或遷�
 - 每筆等成功訊息再交給下一人；看卡名，不只看卡號。
 - 結果不明重試原筆；誤登先暫停再撤銷。
 - 結束進入反思、核對、下載、封存；下一場另建活動。
+
+
+## 永續行動卡第一階段
+
+新增 /action-admin、/actions、/action、/wall。請先執行 migration-003-action-cards.sql（完整原始碼位於 migrations/003-action-cards.sql），再部署。只新增獨立資料表，不重置交易或場次。完整操作與容量限制見 ACTION-CARDS-GUIDE.md。
